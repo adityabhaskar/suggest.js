@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es2017",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "lib": [ "DOM.Iterable", "DOM", "ES2017" ],
+        "rootDir": "src",
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "exclude": [
+        "node_modules",
+    ],
+    "include": [
+        "src/**/*",
+    ],
+}
